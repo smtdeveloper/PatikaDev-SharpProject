@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaDev-SharpProject", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{2A931D3F-37B4-4BF4-8BC7-DB8EFC9A4E5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleApplication", "TriangleApplication\TriangleApplication.csproj", "{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2A931D3F-37B4-4BF4-8BC7-DB8EFC9A4E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A931D3F-37B4-4BF4-8BC7-DB8EFC9A4E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A931D3F-37B4-4BF4-8BC7-DB8EFC9A4E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
