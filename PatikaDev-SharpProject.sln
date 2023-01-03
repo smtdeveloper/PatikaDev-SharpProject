@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaDev-SharpProject", "PatikaDev-SharpProject\PatikaDev-SharpProject.csproj", "{A79D449D-CA9C-4B9F-A7CB-01E7F1FAB90F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaDev-SharpProject", "PatikaDev-SharpProject\PatikaDev-SharpProject.csproj", "{A79D449D-CA9C-4B9F-A7CB-01E7F1FAB90F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{2A931D3F-37B4-4BF4-8BC7-DB8EFC9A4E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{2A931D3F-37B4-4BF4-8BC7-DB8EFC9A4E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleApplication", "TriangleApplication\TriangleApplication.csproj", "{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleApplication", "TriangleApplication\TriangleApplication.csproj", "{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleDrawer", "CircleDrawer\CircleDrawer.csproj", "{DFC51737-32E1-499E-9C0C-6EFAC5601C37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C1DEE9B-4A64-4FD1-BFEC-9DD77C2AF047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC51737-32E1-499E-9C0C-6EFAC5601C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC51737-32E1-499E-9C0C-6EFAC5601C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC51737-32E1-499E-9C0C-6EFAC5601C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC51737-32E1-499E-9C0C-6EFAC5601C37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
