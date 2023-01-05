@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleApplication", "Tria
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleDrawer", "CircleDrawer\CircleDrawer.csproj", "{DFC51737-32E1-499E-9C0C-6EFAC5601C37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritma", "Algoritma\Algoritma.csproj", "{17B8EBA6-E30C-4711-A815-AEAD23076441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algoritma", "Algoritma\Algoritma.csproj", "{17B8EBA6-E30C-4711-A815-AEAD23076441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterReversePrint", "CharacterReversePrint\CharacterReversePrint.csproj", "{8B2A2459-3DB9-4E19-B169-AC5277AC8DB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterReversePrint", "CharacterReversePrint\CharacterReversePrint.csproj", "{8B2A2459-3DB9-4E19-B169-AC5277AC8DB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculation", "AreaCalculation\AreaCalculation.csproj", "{12AD0771-BBBF-4BF7-AC0D-A2A24A5A5CD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{8B2A2459-3DB9-4E19-B169-AC5277AC8DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B2A2459-3DB9-4E19-B169-AC5277AC8DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B2A2459-3DB9-4E19-B169-AC5277AC8DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12AD0771-BBBF-4BF7-AC0D-A2A24A5A5CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AD0771-BBBF-4BF7-AC0D-A2A24A5A5CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AD0771-BBBF-4BF7-AC0D-A2A24A5A5CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AD0771-BBBF-4BF7-AC0D-A2A24A5A5CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
