@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("SMTcoder Calculation");
-
+// kodu ileştirme yap !
 double radius, height, edge1, edge2, edge3, baseLength, width;
 double pi = 3.14;
 double result;
