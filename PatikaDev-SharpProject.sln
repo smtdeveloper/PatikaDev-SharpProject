@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterReversePrint", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCalculation", "AreaCalculation\AreaCalculation.csproj", "{12AD0771-BBBF-4BF7-AC0D-A2A24A5A5CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer-ikililerin-toplamı", "Integer-ikililerin-toplamı\Integer-ikililerin-toplamı.csproj", "{F59EB884-389F-48D2-8FAE-963B2B531EA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integer-ikililerin-toplamı", "Integer-ikililerin-toplamı\Integer-ikililerin-toplamı.csproj", "{F59EB884-389F-48D2-8FAE-963B2B531EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutlakAlma", "MutlakAlma\MutlakAlma.csproj", "{76CBA0CB-237E-42EE-996B-3ED1C617EA8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F59EB884-389F-48D2-8FAE-963B2B531EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F59EB884-389F-48D2-8FAE-963B2B531EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F59EB884-389F-48D2-8FAE-963B2B531EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CBA0CB-237E-42EE-996B-3ED1C617EA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CBA0CB-237E-42EE-996B-3ED1C617EA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CBA0CB-237E-42EE-996B-3ED1C617EA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CBA0CB-237E-42EE-996B-3ED1C617EA8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
