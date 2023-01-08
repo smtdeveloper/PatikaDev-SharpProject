@@ -34,3 +34,5 @@ for (int i = 0; i < strings.Length; i++)
 
 }
 
+
+//Math.Pow(x,y): Bu metot sayesinde vereceğimiz iki parametrenin ilk verilen değeri taban, ikinci verilen değeri üst olarak kabul ederek üs alma işlemi gerçekleştirir. 
