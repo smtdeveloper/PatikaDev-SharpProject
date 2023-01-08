@@ -15,7 +15,6 @@ int[] numbers = new int[strings.Length];
 int sumofDifferences = 0;
 double absoluteSquaring = 0;
 
-
 for (int i = 0; i < strings.Length; i++)
 {
     int x = int.Parse(strings[i]);
@@ -33,6 +32,5 @@ for (int i = 0; i < strings.Length; i++)
     }
 
 }
-
-
-//Math.Pow(x,y): Bu metot sayesinde vereceğimiz iki parametrenin ilk verilen değeri taban, ikinci verilen değeri üst olarak kabul ederek üs alma işlemi gerçekleştirir. 
+//Math.Pow(x,y): Bu metot sayesinde vereceğimiz iki parametrenin ilk verilen değeri taban,
+//ikinci verilen değeri üst olarak kabul ederek üs alma işlemi gerçekleştirir. 
