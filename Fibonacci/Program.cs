@@ -15,6 +15,12 @@ FibonacciCalculator fibonacci = new FibonacciCalculator();
 AverageCalculator average = new AverageCalculator();
 
 int[] fibonacciSeries = fibonacci.CalculateFibonacciSeries(length);
+
+foreach (var item in fibonacciSeries)
+{
+    Console.Write(item + " ");
+}
+
 double averageResult = average.CalculateAverage(fibonacciSeries);
 
-Console.WriteLine("Girilen derinlikteki fibonacci serisinin ortalaması: " + averageResult);
+Console.WriteLine(" \n Girilen derinlikteki fibonacci serisinin ortalaması: " + averageResult);

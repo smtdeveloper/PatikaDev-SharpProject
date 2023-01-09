@@ -9,9 +9,9 @@ public class FibonacciCalculator
     {
         int[] fibonacciSeries = new int[depth];
 
-        for (int i = 0; i < depth; i++)
+        for (int i = 1; i < depth; i++)
         {
-            if (i == 0 || i == 1)
+            if (i == 1)
             {
                 fibonacciSeries[i] = i;
             }
