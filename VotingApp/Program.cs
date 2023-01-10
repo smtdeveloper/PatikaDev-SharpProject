@@ -30,9 +30,9 @@ var selection = Console.ReadLine().ToLower();
 
 if (selection == "login")
 {
-    Console.WriteLine("kullanıcı adınızı giriniz : ");
+    Console.Write(" \n Kullanıcı adınızı giriniz : ");
     string userName = Console.ReadLine();
-    Console.WriteLine("Şifre giriniz : ");
+    Console.Write("Şifre giriniz :  ");
     string password = Console.ReadLine();
 
 
@@ -40,15 +40,34 @@ if (selection == "login")
 
     if (login == "success")
     {
-        Console.WriteLine("Giriş Başarılı");
-        Console.WriteLine("lütfen oylamaya katılın");
+        Console.WriteLine(" \n Giriş Başarılı");
+        Console.WriteLine("lütfen oylamaya katılın 0 ile 10 üzerinden puanlıyın ! \n");
+        
         foreach (var item in categories)
         {
             Console.Write(item.ID + " - " + item.Title + " = ");
             int puan = int.Parse(Console.ReadLine());
             item.Vote = puan;
+            
         }
-        Console.WriteLine("Oyladınız için teşekkürler :)");
+        Console.WriteLine(" \n Oylanama Sonuçları ; \n ");
+
+        foreach (var item in categories)
+        {
+            Console.Write(item.ID + " - " + item.Title + " = ");
+            for (int i = 0; i < item.Vote; i++)
+            {
+                Console.Write("#");
+            }
+            for (int i = 0; i < 10 - item.Vote; i++)
+            {
+                Console.Write("-");
+            }
+            Console.Write(" % " + item.Vote * 10 + "\n");
+           
+        }
+
+        Console.WriteLine(" \n Oyladınız için teşekkürler :)");
     }
     else if (login == "error")
     {
