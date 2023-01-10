@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterReplacement", "Cha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SessizHarf", "SessizHarf\SessizHarf.csproj", "{87E0F99D-8F12-4C62-A84C-332087EA2249}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingApp", "VotingApp\VotingApp.csproj", "{1DFC02F0-7B70-4C41-AC9D-38BFE3B621FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VotingApp", "VotingApp\VotingApp.csproj", "{1DFC02F0-7B70-4C41-AC9D-38BFE3B621FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM-App", "ATM-App\ATM-App.csproj", "{635879F2-E6B6-4746-9CDD-AE0324D4A487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{1DFC02F0-7B70-4C41-AC9D-38BFE3B621FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DFC02F0-7B70-4C41-AC9D-38BFE3B621FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DFC02F0-7B70-4C41-AC9D-38BFE3B621FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635879F2-E6B6-4746-9CDD-AE0324D4A487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635879F2-E6B6-4746-9CDD-AE0324D4A487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635879F2-E6B6-4746-9CDD-AE0324D4A487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635879F2-E6B6-4746-9CDD-AE0324D4A487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
