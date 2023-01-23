@@ -1,8 +1,10 @@
 ﻿Console.WriteLine("");
 
+
+// Kod satırını azaltma ?
 public class DataProvider2
 {
-    private static DataProvider2 instance;
+    private static DataProvider2? instance;
     public static DataProvider2 Instance
     {
         get

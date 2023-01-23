@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarcodeGeneratorReader", "B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QR-CODE-FormApp", "QR-CODE-FormApp\QR-CODE-FormApp.csproj", "{2285CC36-73D1-41A6-AB6F-5EF6EAB695AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerdarOrtac", "SerdarOrtac\SerdarOrtac.csproj", "{E7A4BBD3-0CD5-4D32-811C-8D8B58D9E900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerdarOrtac", "SerdarOrtac\SerdarOrtac.csproj", "{E7A4BBD3-0CD5-4D32-811C-8D8B58D9E900}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "81sehir", "81sehir\81sehir.csproj", "{676C9AA9-466F-4A50-9104-D06033E9620C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowMuchShouldIGetFromTheFinal", "HowMuchShouldIGetFromTheFinal\HowMuchShouldIGetFromTheFinal.csproj", "{5810AEEA-B3FA-432B-AC20-D011A53E05E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{E7A4BBD3-0CD5-4D32-811C-8D8B58D9E900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7A4BBD3-0CD5-4D32-811C-8D8B58D9E900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7A4BBD3-0CD5-4D32-811C-8D8B58D9E900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676C9AA9-466F-4A50-9104-D06033E9620C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676C9AA9-466F-4A50-9104-D06033E9620C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676C9AA9-466F-4A50-9104-D06033E9620C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676C9AA9-466F-4A50-9104-D06033E9620C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5810AEEA-B3FA-432B-AC20-D011A53E05E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5810AEEA-B3FA-432B-AC20-D011A53E05E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5810AEEA-B3FA-432B-AC20-D011A53E05E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5810AEEA-B3FA-432B-AC20-D011A53E05E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
