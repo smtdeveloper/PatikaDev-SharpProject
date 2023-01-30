@@ -12,6 +12,9 @@ for (int i = 1; i <= 81; i++)
 Console.Write(" Cevap : ");
 Console.WriteLine(toplam);
 
+
+
+// -----------------------------------------
 Console.WriteLine(" Kara Düzen :) ");
 
 for (int i = 5; i > 0; i--)
